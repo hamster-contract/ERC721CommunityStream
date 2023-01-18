@@ -5,7 +5,7 @@ import "../node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721U
 import "../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "../node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
-contract MyNFT is Initializable, ERC721Upgradeable, OwnableUpgradeable {
+contract ERC721CommunityStream is Initializable, ERC721Upgradeable, OwnableUpgradeable {
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() public {
         _disableInitializers();
