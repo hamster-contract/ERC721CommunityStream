@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "truffle compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "eth-gas-reporter": "^0.2.25",
-    "ganache-cli": "^6.12.2"
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.7.8"
   }
 }
